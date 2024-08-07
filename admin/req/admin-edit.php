@@ -7,7 +7,7 @@ if (isset($_SESSION['admin_id']) && isset($_SESSION['username']) ) {
        isset($_POST['lname']) &&
        isset($_POST['username'])){
 
-      include "../../db_conn.php";
+      include_once "../../db_conn.php";
       $fname = $_POST['fname'];
       $lname = $_POST['lname'];
       $username = $_POST['username'];

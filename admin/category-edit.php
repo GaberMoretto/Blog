@@ -15,7 +15,7 @@ if (isset($_SESSION['admin_id']) && isset($_SESSION['username']) && $_GET['id'])
 <body>
 	<?php 
       $id = $_GET['id'];
-	  include "inc/side-nav.php"; 
+	  include_once "inc/side-nav.php"; 
       include_once("data/Category.php");
       include_once("../db_conn.php");
       $categoryx = getById($conn, $id);

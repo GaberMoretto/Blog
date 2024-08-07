@@ -8,7 +8,7 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['username'])){
         $comment = $_POST['comment'];
         $post_id = $_POST['post_id'];
         $user_id = $_SESSION['user_id'];
-         include "../db_conn.php";
+         include_once "../db_conn.php";
 
         if (empty($comment)) {
 	    	$em = "Comment is required";

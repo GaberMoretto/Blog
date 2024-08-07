@@ -40,7 +40,7 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['username'])) {
 </head>
 <body>
  <?php 
-     include 'inc/NavBar.php';
+     include_once 'inc/NavBar.php';
   ?>
  <div class="container mt-5">
  <h1 class="display-4 mb-4 fs-3">

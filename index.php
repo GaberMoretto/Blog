@@ -20,7 +20,7 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['username'])) {
 </head>
 <body>
 	<?php 
-        include 'inc/NavBar.php';
+        include_once 'inc/NavBar.php';
 	 ?>
      <div class=" class="responsive-img">
 	 	<img src="img/bem_vindo_blog.png" >

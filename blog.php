@@ -26,7 +26,7 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['username'])) {
 </head>
 <body>
 	<?php 
-      include 'inc/NavBar.php';
+      include_once 'inc/NavBar.php';
       include_once("admin/data/Post.php");
       include_once("admin/data/Comment.php");
       include_once("db_conn.php");

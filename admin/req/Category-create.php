@@ -4,7 +4,7 @@ session_start();
 if (isset($_SESSION['admin_id']) && isset($_SESSION['username']) ) {
 
     if(isset($_POST['category'])){
-      include "../../db_conn.php";
+      include_once "../../db_conn.php";
       $category = $_POST['category'];
 
       if(empty($category)){

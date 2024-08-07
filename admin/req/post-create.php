@@ -7,7 +7,7 @@ if (isset($_SESSION['admin_id']) && isset($_SESSION['username'])) {
        isset($_FILES['cover']) && 
        isset($_POST['category']) && 
        isset($_POST['text'])){
-      include "../../db_conn.php";
+      include_once "../../db_conn.php";
       $title = $_POST['title'];
       $text = $_POST['text'];
       $category = $_POST['category'];

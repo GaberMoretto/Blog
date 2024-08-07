@@ -8,7 +8,7 @@ if (isset($_SESSION['admin_id']) && isset($_SESSION['username'])) {
        isset($_POST['text'])  &&
        isset($_POST['post_id']) &&
        isset($_POST['cover_url']) ){
-      include "../../db_conn.php";
+      include_once "../../db_conn.php";
       $title = $_POST['title'];
       $text = $_POST['text'];
       $post_id = $_POST['post_id'];

@@ -33,7 +33,7 @@ if (isset($_GET['post_id'])) {
 </head>
 <body>
 	<?php 
-        include 'inc/NavBar.php';
+        include_once 'inc/NavBar.php';
       ?>
     
     <div class="container mt-5">

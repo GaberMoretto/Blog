@@ -7,7 +7,7 @@ if (isset($_SESSION['admin_id']) && isset($_SESSION['username']) ) {
        isset($_POST['new_pass']) &&
        isset($_POST['cnew_pass'])){
 
-      include "../../db_conn.php";
+      include_once "../../db_conn.php";
       $cpass = $_POST['cpass'];
       $new_pass = $_POST['new_pass'];
       $cnew_pass = $_POST['cnew_pass'];

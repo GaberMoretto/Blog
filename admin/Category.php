@@ -14,7 +14,7 @@ if (isset($_SESSION['admin_id']) && isset($_SESSION['username'])) {
 </head>
 <body>
 	<?php 
-	  include "inc/side-nav.php"; 
+	  include_once "inc/side-nav.php"; 
       include_once("data/Category.php");
       include_once("../db_conn.php");
       $categories = getAll($conn);
