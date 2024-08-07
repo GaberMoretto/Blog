@@ -45,7 +45,7 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['username'])) {
  <div class="container mt-5">
  <h1 class="display-4 mb-4 fs-3">
  			<?php if ($category != 0)
- 			  echo "Artigos sobre '".$category['category']."'";  
+ 			  echo "Articles about '".$category['category']."'";  
  			else echo "Articles"; ?>
  	
 </h1>
