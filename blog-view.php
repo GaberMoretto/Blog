@@ -151,7 +151,8 @@ if (isset($_GET['post_id'])) {
 </section>
 </div>
    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  
+   
+  <!-- Validates if there was a like or not -->
    <script>
    	 $(document).ready(function(){
 			  $(".like-btn").click(function(){
