@@ -39,7 +39,7 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['username'])) {
       }else {
          $posts = getAll($conn);
       }
-      $categories = get5Categoies($conn); 
+      $categories = get5Categories($conn); 
 	 ?>
     
     <div class="container mt-5">

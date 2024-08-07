@@ -14,7 +14,7 @@ if (isset($_GET['post_id'])) {
         $id = $_GET['post_id'];
         $post = getById($conn, $id);
         $comments = getCommentsByPostID($conn, $id);
-        $categories = get5Categoies($conn); 
+        $categories = get5Categories($conn); 
 
      if ($post == 0) {
      	  header("Location: blog.php");

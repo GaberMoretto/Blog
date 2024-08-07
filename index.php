@@ -22,7 +22,8 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['username'])) {
 	<?php 
         include 'inc/NavBar.php';
 	 ?>
-     <div class="main-banner">
+     <div class=" class="responsive-img">
+	 	<img src="img/bem_vindo_blog.png" >
      	
      </div>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>

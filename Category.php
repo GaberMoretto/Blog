@@ -11,7 +11,7 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['username'])) {
   include_once("admin/data/Comment.php");
   
   $categories = getAllCategories($conn);
-  $categories5 = get5Categoies($conn); 
+  $categories5 = get5Categories($conn); 
   $category = 0;
  ?>
 <!DOCTYPE html>
